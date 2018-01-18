@@ -1,0 +1,57 @@
+keyboards/iris/matrix.c             
+keyboards/iris/i2c.c           
+keyboards/iris/split_util.c       
+keyboards/iris/serial.c                        
+keyboards/iris/iris.c                                
+keyboards/iris/rev2/rev2.c                       
+keyboards/iris/keymaps/coffee/keymap.c    
+quantum/quantum.c                    
+quantum/keymap_common.c                 
+quantum/keycode_config.c                          
+quantum/process_keycode/process_leader.c          
+quantum/rgblight.c                                   
+./drivers/avr/ws2812.c                                 
+quantum/led_tables.c                             
+./tmk_core/common/host.c                                   
+./tmk_core/common/keyboard.c                       
+./tmk_core/common/action.c                       
+./tmk_core/common/action_tapping.c                            
+./tmk_core/common/action_macro.c                                
+./tmk_core/common/action_layer.c   
+./tmk_core/common/action_util.c     
+./tmk_core/common/print.c                      
+./tmk_core/common/debug.c                                  
+./tmk_core/common/util.c                              
+./tmk_core/common/eeconfig.c                           
+./tmk_core/common/report.c                           
+./tmk_core/common/avr/suspend.c                             
+./tmk_core/common/avr/timer.c                            
+./tmk_core/common/avr/bootloader.c                      
+./tmk_core/common/avr/xprintf.S                            
+./tmk_core/common/magic.c                                  
+./tmk_core/common/mousekey.c                                  
+./tmk_core/common/command.c                                        
+./tmk_core/common/backlight.c                                              
+./tmk_core/protocol/lufa/lufa.c                                           
+./tmk_core/protocol/lufa/descriptor.c                          
+./tmk_core/protocol/lufa/outputselect.c                          
+lib/lufa/LUFA/Drivers/USB/Class/Common/HIDParser.c    
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.c    
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.c    
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.c                  
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.c              
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.c         
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.c
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.c
+lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.c
+lib/lufa/LUFA/Drivers/USB/Core/ConfigDescriptors.c
+lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.c
+lib/lufa/LUFA/Drivers/USB/Core/Events.c
+lib/lufa/LUFA/Drivers/USB/Core/HostStandardReq.c
+lib/lufa/LUFA/Drivers/USB/Core/USBTask.c
+
+Linking: .build/iris_rev2_coffee.elf
+Creating load file for flashing: .build/iris_rev2_coffee.hex
+Copying iris_rev2_coffee.hex to qmk_firmware folder
+Checking file size of iris_rev2_coffee.hex
+* File size is fine - 25902/28672
